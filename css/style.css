@@ -686,9 +686,6 @@ body {
 
 .form {
   width: 100%; }
-  @media (max-width: 65em) {
-    .form {
-      width: 70%; } }
   .form_box {
     width: 100%;
     padding: 0 1rem;
