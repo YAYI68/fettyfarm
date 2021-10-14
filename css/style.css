@@ -452,8 +452,13 @@ body {
     flex-basis: 47%;
     height: 45rem;
     padding: 1rem;
-    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
-    margin-bottom: 5rem; }
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1); }
+    @media (min-width: 75em) {
+      .palm_all {
+        margin-bottom: 5.5rem; } }
+    @media (max-width: 65em) {
+      .palm_all {
+        margin-bottom: 5.5rem; } }
   .palm_cultivation {
     margin-right: 2rem; }
     @media (max-width: 36em) {
@@ -482,6 +487,12 @@ body {
     margin-top: 1rem;
     width: 100%;
     height: 80%; }
+    @media (max-width: 36em) {
+      .palm_img_box {
+        flex-direction: column; } }
+    @media (max-width: 48em) {
+      .palm_img_box {
+        flex-direction: column; } }
   .palm_image {
     flex-basis: 47%;
     height: 100%;
